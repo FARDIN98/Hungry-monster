@@ -11,7 +11,7 @@ input[type="text"]{
     border-radius: 5px;
     padding: 10px;
 }
-input[type="submit"]{
+.search-button{
     height: 60px;
     width: 100px;
     background: #F5B041;
@@ -21,4 +21,78 @@ input[type="submit"]{
     border: none;
     border-radius: 15px;
     padding: 10px;
+}
+.item-list{
+    text-align: center;
+    margin: 1px 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+.food-item{
+    background-color: white;
+    width: 270px;
+    margin: 8px;
+}
+.food-item img{
+    width: 270px;
+}
+.food-title{
+    color: black;
+    font-size: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.recipe-details{
+    text-align: center;
+}
+.meals-details-heading{
+    background-color: thistle;
+    padding:10px;
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.meals-title-details{
+    color:black;
+    padding:20px 20px;
+    background-color: blanchedalmond;
+    font-size: 20px;
+}
+.single-food{
+    width:600px;
+    margin:0 auto;
+}
+.single-food img{
+    width:100%;
+}
+.ingredient{
+    margin:20px 0px;
+    font-size: 20px;
+}
+.ingredient h3{
+    padding:10px;
+    margin:10px;
+}
+
+.desc{
+    padding: 20px;
+    margin: 10px 20px;
+    /* width:50%; */
+}
+.nothingFound{
+    color:black;
+    padding:20px;
+    background-color: gray;
+    font-size: 25px;
+
+}
+#detailsDiv{
+    display:none;
+}
+.show{
+    display:block;
 }

@@ -9,10 +9,27 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="input-box">
-        <input type="text" class="input-value" id="input" placeholder="Enter recipe name">
-        <input type="submit" value="Search">
-    </div>
+    <main>
+        <!-- Recipe search area -->
+        <section>
+            <div class="input-box">
+                <input type="text" class="input-value" id="input" placeholder="Enter recipe name">
+                <button id="search" class="search-button">Search</button>
+            </div>
+        </section>
+
+        <section class="item-list">
+            <div class="grid" id="item-data">
+
+            </div>
+        </section>
+
+        <section class="recipe-details" id="details">
+            <div class="description">
+
+            </div>
+        </section>
+    </main>
     <script src="index.js"></script>
 </body>
 </html>
