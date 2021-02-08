@@ -7,7 +7,7 @@ const details = document.getElementById("details");
 // meal list
 function itemList(input){
     const insert = document.getElementById("input").value;
-    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${input}`)
+    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${insert}`)
         .then(res => res.json())
         .then(data => {
             let tag = "";
@@ -47,17 +47,17 @@ function mealIngredient(meals){
         <div class="meals-details-heading">
             <h2>Category : ${meals[0].strCategory}</h2>
         </div>
-        <div class="single-food">
-            <div class="meals-img">
-            <img src="${meals[0].strMealThumb}" alt="">
+        <div class="each-meal">
+            <div class="food-image">
+            <img src="${meals[0].strMealThumb}">
             </div>
-            <div class="meals-title-details">
+            <div class="foods-title-details">
             <h3>${meals[0].strMeal}</h3>
             </div>
         </div>
         <div class="ingredient">
-            <h3> INSTRUCTIONS</h3>
-            <p class=desc>${meals[0].strInstructions}</p>
+            <h3>Recipes</h3>
+            <p class="details">${meals[0].strInstructions}</p>
         </div>
     `
     details.innerHTML = tag;

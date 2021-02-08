@@ -49,24 +49,22 @@ input[type="text"]{
     text-align: center;
 }
 .meals-details-heading{
-    background-color: thistle;
     padding:10px;
     margin: 20px 0;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
 }
-.meals-title-details{
+.foods-title-details{
     color:black;
     padding:20px 20px;
-    background-color: blanchedalmond;
     font-size: 20px;
 }
-.single-food{
+.each-meal{
     width:600px;
     margin:0 auto;
 }
-.single-food img{
+.each-meal img{
     width:100%;
 }
 .ingredient{
@@ -77,16 +75,14 @@ input[type="text"]{
     padding:10px;
     margin:10px;
 }
-
-.desc{
+.details{
     padding: 20px;
     margin: 10px 20px;
-    /* width:50%; */
 }
 .nothingFound{
     color:black;
     padding:20px;
-    background-color: gray;
+    background-color: cyan;
     font-size: 25px;
 
 }
