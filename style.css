@@ -1,0 +1,24 @@
+.input-box{
+    text-align: center;
+}
+input[type="text"]{
+    height: 40px;
+    width: 600px;
+    background: #e7e7e7;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+input[type="submit"]{
+    height: 60px;
+    width: 100px;
+    background: #F5B041;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
